@@ -1,0 +1,624 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/philosopher-v19-latin-700.woff2') format('woff2'); 
+  }
+  
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+}
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); 
+  }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+h1, h2, h3 {
+    font-family: 'Philosopher';
+}
+.main-site{
+   width: 80%;
+   margin: 0 auto;
+}
+.site-header{
+    width: 80%;
+    margin: 0 auto;
+    height: 46px;
+    padding-left: 150px;
+    padding-top: 30px;
+    margin-bottom: 16px;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+.header-div-2{
+ display: flex;
+ align-items: center;
+}
+.header-img{
+    vertical-align: middle;
+}
+.header-list{
+    padding-left: 35px;
+    display: flex;
+    gap: 41px;
+}
+.header-cantact{
+    color: black;
+}
+.header-cantact:hover{
+    color: rgb(220, 120, 11);
+}
+.header-btn{
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+.header-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(220, 120, 11);
+    border: 2px solid rgb(220, 120, 11);
+
+}
+.making-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.making-div{     
+  display: flex;
+  gap: 10px;
+  margin-bottom: 115px;
+}
+.making-div-2{
+    width: 555px;
+
+}
+.makingimg{
+    margin-top: 15px;
+}
+.making-titl{
+    width: 555px;
+    height: 165px;
+    padding-top: 144px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: left; 
+   
+}
+.making-text{
+    padding-top: 160px;
+    margin-bottom: 50px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.making-btn{
+    width: 158px;
+    height: 60px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;       
+}
+.making-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(220, 120, 11);
+    border: 2px solid rgb(220, 120, 11);
+}
+.making-btn-2{
+    width: 158px;
+    height: 60px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 2px solid rgb(220, 120, 11);
+}
+.making-btn-2:hover{
+    background: rgb(220, 120, 11);
+    color: rgb(255, 255, 255);
+
+}
+.features-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 109px;
+}
+.features-str{
+    margin-left: 490px;
+    margin-bottom: 8px;
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features-titl{
+    margin-left: 356px;
+    margin-bottom: 44px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.features-list{
+    display: flex;
+    justify-content: space-between;
+}
+.features-li{
+    width: 300px;
+    height: 228px;
+
+}
+.features-img{
+      margin: 21px;
+
+}
+.features-img-div{
+    width: 88px;
+    height: 88px;
+    margin-left: 106px;
+    background: rgb(168, 168, 165);
+    ;
+    margin-bottom: 36px;
+    border-radius: 50%;
+}
+.features-titl-2{
+    margin-left: 80px;
+    padding-bottom: 16px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.features-text{
+    width: 300px;
+    height: 68px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.abaut-section{
+    width: 80%;
+    margin:  0 auto;
+}
+.abaut-div{
+    display: flex;
+    margin-bottom: 115px;
+    gap: 100px;
+}
+.abaut-div2{
+    width: 468px;
+    padding-top: 50px;
+}
+.abaut-strong{
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.abaut-titl{
+    margin-top: 26px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.abaut-text{
+    margin-top: 12px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.abaut-btn{
+    width: 142px;
+    height: 42px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.abaut-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(220, 120, 11);
+    border: 2px solid rgb(220, 120, 11);
+}
+.menu-strong{
+    margin-left: 500px;
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-titl{
+    margin-left: 370px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.menu-text{
+    width: 748px;
+    height: 64px;
+    margin-left: 190px;
+    margin-bottom: 32px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.menu-li{
+    width: 360px;
+    height: 446px;
+    border: 1.5px solid rgb(21, 12, 1);
+    border-radius: 5px;
+}
+.menu-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.menu-div{
+    display: flex;
+}
+.menu-titl-3{
+    margin-right: 150px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.menu-text-2{
+    max-width: 5px;
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.menu-text-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 310px;
+    height: 38px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.menu-div-2{
+    display: flex;
+
+}
+.menu-btn{
+    width: 36px;
+    height: 34px;
+    margin-left: 25px;
+    margin-right: 200px;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    border: none;
+}
+.learn-btn{
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    margin-left: 480px;
+    border: 2px solid rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.learn-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(220, 120, 11);
+    border: 2px solid rgb(220, 120, 11);
+}
+.take-section{
+    background: rgb(251, 241, 231);
+    height: 518px;
+    margin-bottom: 213px;
+}
+.take-divv{
+    margin-top: 150px;
+    gap: 150px;
+    padding: 50px;
+   display: flex;
+}
+.take-div{
+    width: 555px;
+   margin-top: 76px;
+}
+.take-strong{
+    color: rgb(220, 120, 11);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.take-titl{
+    color: rgb(21, 12, 1);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.take-text{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(21, 12, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.tace-ul{
+    display: flex;
+     gap: 40px;
+}
+.monial-strong{
+    padding-left: 552px;
+}
+.monial-titl{
+    margin-left: 90px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.monial-text{
+    width: 750px;
+    margin-left: 250px;
+    margin-bottom: 75px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.monial-img{
+    margin-bottom: 41px;
+    margin-left: 570px;
+}
+.text{
+    width: 500px;
+    margin-left: 350px;
+}
+.cantact-section{
+    height: 429px;
+    height: 448px;
+    background: rgb(251, 241, 231);
+}
+.footer-site{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.footer-ul{
+   display: flex;
+   gap: 70px;
+   display: flex;
+    justify-content: space-between;
+
+}
+.footer-img-ul{
+    display: flex;
+    gap: 5px;
+}
+.fotter-div{
+    margin-top: 40px;
+}
+.cantact__div{
+    padding: 40px;
+    position: relative;
+}
+.strong{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: darkorange;
+    margin-top: 100px;
+
+    
+    
+}
+.cantact__div h2{
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+}
+.cantact__div input{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 400px ;
+    padding: 10px 150px 10px 10px;
+    border: none;
+    border-radius: 20px;
+    
+
+
+}
+.cantact__div button{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px 40px;
+    border-radius: 20px  ;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    position: absolute;
+    left: 725px;
+
+    
+}
+.footer-ul li a{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     color: white;
+     padding: 10px;
+     margin-bottom: 20px;
+}
+.footer{
+    background-color: #252525;
+    color: white;
+}
+.footer__divs{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    
+}
+.footer__list li{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+    
+}
